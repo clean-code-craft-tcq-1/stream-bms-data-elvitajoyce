@@ -31,4 +31,4 @@ jobs:
         path: ./target/site/jacoco
         retention-days: 1
     - name: Build main class
-      run: mvn compile exec:java -Dexec.mainClass="Sender.SenderApp"
+      run: mvn compile exec:java -Dexec.mainClass="sender.SenderApp"
